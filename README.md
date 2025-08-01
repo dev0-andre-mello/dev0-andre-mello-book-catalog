@@ -34,6 +34,7 @@ A simple web application built with Flask for registering and viewing books. All
     ```bash
    python3 -m venv venv
    source venv/bin/activate # Linux/macOS
+   venv\Scripts\activate # Windows
    
 3. Install dependencies:
     
