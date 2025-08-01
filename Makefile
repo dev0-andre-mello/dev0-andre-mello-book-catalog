@@ -16,7 +16,7 @@ format:
 
 # Execute lint with flake8
 lint:
-	flake8 .
+	@flake8 project tests
 
 # Tests
 test:
