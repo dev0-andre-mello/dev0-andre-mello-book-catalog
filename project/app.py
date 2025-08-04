@@ -28,6 +28,14 @@ def add_book():
     return render_template("add_book.html")
 
 
+@app.route("/delete/<int:book_id>", methods=["POST"])
+def delete_book(book_id):
+    book = Book.query.get_or_404(book_id)
+    db.session.delete(book)
+    db.session.commit()
+    return redirect(url_for("index"))
+
+
 if __name__ == "__main__":
     with app.app_context():
         db.create_all()
