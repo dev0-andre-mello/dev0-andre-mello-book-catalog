@@ -8,7 +8,7 @@ A simple web application built with Flask for registering and viewing books. All
 
 - Add books (title, author, and publication year)
 - View the list of registered books
-- (Optional) Remove books from the catalog
+- Remove books from the catalog
 
 ---
 
