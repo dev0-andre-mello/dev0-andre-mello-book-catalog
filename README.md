@@ -44,5 +44,5 @@ A simple web application built with Flask for registering and viewing books. All
 4. Run the application:
 
     ```bash
-   python app.py
+   python -m project.app
 
