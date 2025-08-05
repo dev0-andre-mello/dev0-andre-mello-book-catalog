@@ -20,4 +20,4 @@ lint:
 
 # Tests
 test:
-	pytest
+	PYTHONPATH=. pytest
